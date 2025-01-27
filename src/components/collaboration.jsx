@@ -7,7 +7,7 @@ import thinkstreet from "../assets/thinkstreet.png";
 import skillCircle from "../assets/skill-circle-logo.webp";
 import topOnePercent from "../assets/top-one-percent-logo.webp";
 
-const Colaboraton = () => {
+const Collaboration = () => {
   const logos = [
     Travell, ciena, finlatics, lazer, nasscom, 
     thinkstreet, skillCircle, topOnePercent
@@ -47,4 +47,4 @@ const Colaboraton = () => {
   );
 };
 
-export default Colaboraton;
+export default Collaboration;

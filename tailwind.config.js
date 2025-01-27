@@ -28,6 +28,9 @@ module.exports = {
             'background-position': 'right center',
           },
         },
+        fontFamily: {
+          montserrat: ['Montserrat', 'sans-serif'],
+        },
       }
     },
   },
