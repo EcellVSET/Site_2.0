@@ -6,19 +6,29 @@ module.exports = {
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
         "morph": "morph 8s ease-in-out infinite",
-        text: 'text 5s ease infinite'
+        "text": "text 5s ease infinite",
+        "scroll-right": "scrollRight 30s linear infinite",
+        "scroll-left": "scrollLeft 30s linear infinite"
       },
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-100%)" },
         },
-        morph: {
-          '0%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%', borderColor: 'green' },
-        '50%': { borderRadius: '30% 60% 70% 40%/50% 60% 30% 60%', borderColor: 'green' },
-        '100%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%', borderColor: 'green' },
+        "scrollRight": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" }
         },
-        text: {
+        "scrollLeft": {
+          "0%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(0)" }
+        },
+        "morph": {
+          '0%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%', borderColor: 'green' },
+          '50%': { borderRadius: '30% 60% 70% 40%/50% 60% 30% 60%', borderColor: 'green' },
+          '100%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%', borderColor: 'green' },
+        },
+        "text": {
           '0%, 100%': {
             'background-size': '200% 200%',
             'background-position': 'left center',
@@ -28,11 +38,25 @@ module.exports = {
             'background-position': 'right center',
           },
         },
-        fontFamily: {
-          montserrat: ['Montserrat', 'sans-serif'],
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      utilities: {
+        '.pause-animation': {
+          'animation-play-state': 'paused',
         },
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.hover\\:pause-animation:hover': {
+          'animation-play-state': 'paused',
+        },
+      }
+      addUtilities(newUtilities)
+    },
+  ],
 };
