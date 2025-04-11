@@ -5,32 +5,32 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 const membersData = [
   // Faculty Heads
   {
-    name: "Dr. Jane Smith",
+    name: "Prof. Gopal Choudary",
     position: "Faculty Advisor",
     category: "Faculty Heads",
-    image: "./imgs/faculty/jane-smith.jpg",
+    image: "/src/assets/profs/gopalSir.jpeg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/janesmith/",
-      github: "https://github.com/janesmith",
+      linkedin: "https://www.linkedin.com/in/gopal-chaudhary-61b02639/",
+      github: "",
     },
   },
   {
-    name: "Prof. John Doe",
+    name: "Prof. Ankur",
     position: "Faculty Coordinator",
     category: "Faculty Heads",
-    image: "./imgs/faculty/john-doe.jpg",
+    image: "/src/assets/profs/ankurSir.png",
     socials: {
-      linkedin: "https://www.linkedin.com/in/johndoe/",
-      github: "https://github.com/johndoe",
+      linkedin: "",
+      github: "",
     },
   },
-  
+
   // Club Authorities
   {
     name: "Suhani Singhal",
     position: "President",
     category: "Authorities",
-    image: "./imgs/heads/Suhani Singhal.jpeg",
+    image: "/src/assets/heads/suhaniSinghal.jpeg",
     socials: {
       linkedin: "https://www.linkedin.com/in/suhanisinghal274/",
       github: "https://github.com/suhanisinghal274",
@@ -40,7 +40,7 @@ const membersData = [
     name: "Akanksha Sharma",
     position: "Vice President",
     category: "Authorities",
-    image: "./imgs/heads/Akanksha Sharma (2).jpeg",
+    image: "/src/assets/heads/akankshaSharma.jpeg",
     socials: {
       linkedin: "https://www.linkedin.com/in/akanksha-sharma-838214272/",
       github: "https://github.com/Akankshas1102",
@@ -50,45 +50,136 @@ const membersData = [
     name: "Ujjwal Sharma",
     position: "Secretary",
     category: "Authorities",
-    image: "./imgs/heads/Ujjwal Sharma.jpeg",
+    image: "/src/assets/heads/ujjwalSharma.jpeg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/ujjwalsharma/",
+      linkedin: "https://www.linkedin.com/in/ujjwalsharma01/",
       github: "https://github.com/UjjwalSharma01",
     },
   },
-  
+
   // Department Heads
   {
     name: "Lakshay Jain",
     position: "Head of Marketing",
     category: "Heads",
-    image: "./imgs/members/Lakshay Jain.jpg",
+    image: "/src/assets/heads/lakshayJain.jpg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/lakshayjain/",
+      linkedin: "https://www.linkedin.com/in/lakshay-jain-92951b29b/",
       github: "https://github.com/Kartik14th",
     },
   },
   {
-    name: "Rahul Kumar",
-    position: "Technical Head",
+    name: "Himanshu Wadhwa",
+    position: "Head of Operations",
     category: "Heads",
-    image: "./imgs/heads/rahul-kumar.jpg",
+    image: "/src/assets/heads/himanshuWadhwa.jpg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/rahulkumar/",
-      github: "https://github.com/rahulkumar",
+      linkedin: "https://www.linkedin.com/in/himanshuwadhwa07/",
+      github: "https://github.com/himanshuwadhwa07",
     },
   },
   {
-    name: "Priya Verma",
-    position: "Design Head",
+    name: "Tiya Mathur",
+    position: "Head of Women Entrepreneurship",
     category: "Heads",
-    image: "./imgs/heads/priya-verma.jpg",
+    image: "/src/assets/heads/tiyaMathur.jpg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/priyaverma/",
-      github: "https://github.com/priyaverma",
+      linkedin: "https://www.linkedin.com/in/tiya-mathur-9537292a1/",
+      github: "https://github.com/Tiya1000",
     },
   },
-  
+  {
+    name: "Kirty Gupta",
+    position: "Head of Innovation and Design",
+    category: "Heads",
+    image: "/src/assets/heads/kirtyGupta.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/kirty-gupta-0b350824b/",
+      github: "https://github.com/kirtygupta",
+    },
+  },
+  {
+    name: "Pranay Vohra",
+    position: "Head of R&D",
+    category: "Heads",
+    image: "/src/assets/heads/pranayVohra.jpeg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/pranayvohra/",
+      github: "https://github.com/pranay-vohra",
+    },
+  },
+  {
+    name: "Apoorav Malik",
+    position: "Head of Technical",
+    category: "Heads",
+    image: "/src/assets/heads/apooravMalik.png",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/apoorav-malik-903b89248/",
+      github: "https://github.com/apooravmalik",
+    },
+  },
+  {
+    name: "Abhishek Madaan",
+    position: "Head of Editorial & Content",
+    category: "Heads",
+    image: "/src/assets/heads/abhishekMadaan.jpeg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/abhishek-madaan-2018472a6/",
+      github: "",
+    },
+  },
+  {
+    name: "Anushka Chauhan",
+    position: "Head of Editorial & Content",
+    category: "Heads",
+    image: "/src/assets/heads/anushkaChauhan.jpeg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/anushka-chauhan-86296a276/",
+      github: "https://github.com/anushkxa",
+    },
+  },
+  {
+    name: "Aparna Singh",
+    position: "Head of Event Management",
+    category: "Heads",
+    image: "/src/assets/heads/aparnaSingh.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/aparna-singh-183a372a9/",
+      github: "https://github.com/Aparna-797",
+    },
+  },
+  {
+    name: "Sarthak Jha",
+    position: "Head of Collaboration",
+    category: "Heads",
+    image: "/src/assets/heads/sarthakJha.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/jhasarthak/",
+      github: "https://github.com/Sarthak696969",
+    },
+  },
+  {
+    name: "Sambhav Thakkar",
+    position: "Head of Event Management",
+    category: "Heads",
+    image: "/src/assets/heads/sambhavThakkar.jpg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/sambhav-thakkar-6947722b6/",
+      github: "https://github.com/sambhavthakkar",
+    },
+  },
+  {
+    name: "Rohan Bhatia",
+    position: "Head of Finance & Sponsorship",
+    category: "Heads",
+    image: "/src/assets/heads/rohanBhatia.jpeg",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/rohan-bhatia-375689223/",
+      github: "https://github.com/rohan-bhxtia",
+    },
+  },
+
+
   // Regular Members
   {
     name: "Amit Singh",
@@ -126,7 +217,7 @@ export default function MembersPage() {
 
   // Define the display order of categories
   const categoryOrder = ["Faculty Heads", "Authorities", "Heads", "Members", "Others"];
-  
+
   // Sort the grouped members object by the predefined order
   const sortedCategories = Object.keys(groupedMembers).sort(
     (a, b) => categoryOrder.indexOf(a) - categoryOrder.indexOf(b)
@@ -181,7 +272,7 @@ export default function MembersPage() {
       {/* Cursor Effects */}
       <div className="cursorFollower fixed w-14 h-14 bg-black/30 rounded-full pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="cursorFollowerDot fixed w-2 h-2 bg-white rounded-full pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2"></div>
-      
+
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
@@ -189,7 +280,7 @@ export default function MembersPage() {
             MEMBERS
           </h1>
           <div className="h-1 w-32 bg-blue-500/70 rounded-full mb-12"></div>
-          
+
           {/* Subtle grid background */}
           <div className="absolute inset-0 z-0 opacity-5">
             <div className="h-full w-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoNjB2NjBIMHoiLz48cGF0aCBkPSJNMzAgMzBoMzB2MzBIMzB6IiBmaWxsPSIjMDA3NEQzIi8+PHBhdGggZD0iTTAgMGgzMHYzMEgweiIgZmlsbD0iIzAwNzREMyIvPjwvZz48L3N2Zz4=')]"></div>
@@ -205,7 +296,7 @@ export default function MembersPage() {
               {category}
               <div className="h-1 w-24 bg-blue-500/70 rounded-full mt-2"></div>
             </h2>
-            
+
             {/* Using the Cards component for each category */}
             <Cards teamData={groupedMembers[category]} />
           </div>
